@@ -1,0 +1,44 @@
+/* Images are styled at 50% */
+
+.one {
+ height: 200px;
+ width: 50%;
+ box-sizing: border-box;
+ background-color: blue;
+ margin: 1em;
+ padding: 0;
+}
+
+.two {
+ height: 200px;
+ width: 50%;
+ box-sizing: border-box;
+ background-color: red;
+ margin: 1em;
+ padding:0;
+}
+p {
+ margin: 0;
+}
+/* first way of centering thigns: flex */
+.container {
+ display: flex;
+}
+.center{
+  justify-content: center;
+  align-items:center;
+}
+.animal{
+  width: 50%;
+  height: auto;
+}
+/* second way of centering thigns: block */
+.another_animal{
+  margin-right:auto;
+  margin-left:auto;
+  width: 50%;
+  display:block;
+}
+.todisappear{
+  width:50%;
+}

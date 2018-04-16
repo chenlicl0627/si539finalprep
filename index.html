@@ -1,10 +1,53 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title></title>
-    </head>
-    <body>
-<p> test</p>
-    </body>
+<head>
+    <meta charset="utf-8">
+    <title>si539 final exam</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+
+    function myFunction() {
+        var x = document.getElementById("todisappear");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+    </script>
+</head>
+<body>
+
+
+    <p> test</p>
+    <h1> Chen's Code </h1>
+<!-- Images are styled at 50% -->
+    <div class="container">
+        <div class="one">
+            <!-- <p> hi </p> -->
+        </div>
+        <div class="two">
+            <!-- <p> yo </p> -->
+        </div>
+    </div>
+
+
+    <!-- First image disappears and First image reappears -->
+    <p>Click the "Try it" button to toggle between hiding and showing the Goolge logo:</p>
+
+    <button onclick="myFunction()">Try it</button>
+    <div>
+        <img id="todisappear" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Google_Images_2015_logo.svg/1200px-Google_Images_2015_logo.svg.png" alt="google_logo">
+    </div>
+
+    <!-- Second image is centered-->
+    <div class="container center">
+        <img class="animal" src="http://www.gratuit-en-ligne.com/telecharger-gratuit-en-ligne/telecharger-image-wallpaper-gratuit/image-wallpaper-animaux/img/images/image-wallpaper-animaux-autruche.jpg" alt="animal">
+    </div>
+    <div>
+        <img class="another_animal" src="http://www.gratuit-en-ligne.com/telecharger-gratuit-en-ligne/telecharger-image-wallpaper-gratuit/image-wallpaper-animaux/img/images/image-wallpaper-animaux-autruche.jpg" alt="animal">
+    </div>
+</html>
+
+</body>
 </html>
